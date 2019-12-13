@@ -114,11 +114,20 @@ li:hover {
 }
 
 .btn {
-    position: absolute; /* КОСТЛЬ НУЖНО ФИКСИТЬ!!!!!!!!!!!!!!!!!!!!!*/
-    background-color: #19bd9a;
-    border-radius: 50%;
-    padding: 11px 15px;
-    top: 796px;
+position: absolute;
+width: 35px;
+height: 35px;
+background-color: #19bd9a;
+border-radius: 50%;
+bottom: 15%;
+margin-bottom: 25px;
+left: 50%;
+margin-left: -17px;
+color: white;
+font-size: 20px;
+cursor: pointer;
+    padding: 13px 8px 0px;
+
 }
 
 .title {
