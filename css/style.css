@@ -1,0 +1,349 @@
+.header {
+    width: 100%;
+    padding-top: 47px;
+    position: absolute;
+    z-index: 1;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__logo {
+    padding-left: 30px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1600px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    min-height: 820px;
+    position: relative;
+    background: url("../Img/Layer_1.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro {
+    background-color: rgba(0, 0, 0, .3);
+    background-blend-mode: darken;
+}
+
+.intro__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro__title {
+    color: #fff;
+    font-size: 35px;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 7px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 43px;
+}
+
+.intro__suptitle {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+
+}
+
+ul {
+    display: flex;
+}
+
+
+.btn {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+display: inline-block;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+li:hover {
+    border: 1px solid white;
+    border-radius: 50px;
+    transition: .1s;
+}
+
+.btn {
+    position: absolute; /* КОСТЛЬ НУЖНО ФИКСИТЬ!!!!!!!!!!!!!!!!!!!!!*/
+    background-color: #19bd9a;
+    border-radius: 50%;
+    padding: 11px 15px;
+    top: 796px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.title_disc {
+    max-width: 466px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+    color: #81868e;
+
+}
+
+.description {
+    padding: 114px;
+}
+
+.title__main h1 {
+    line-height: 12px;
+    letter-spacing: 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+
+.ipad {
+    padding-right: 300px;
+
+}
+
+.title__main {
+    padding-left: 300px;
+}
+
+.title__main button {
+    border: 1px solid black;
+    font-size: 16px;
+    color: #333b46;
+    line-height: 12px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 50px;
+    padding: 12px 30px;
+    background-color: #fff;
+    margin-top: 33px;
+    cursor: pointer;
+}
+
+.about {
+    background-color: #f3f3f3;
+}
+
+.about__title {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.about__title h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333b46;
+    margin-bottom: 21px;
+}
+.about__title p{
+    color: #81868e;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+    text-align: center;
+}
+
+.icons{
+    font-size: 40px;
+
+}
+.icons a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 4px 11px 2px;
+    margin: 20px;
+    background-color: #81868e;
+}
+.icons a:hover{
+    background-color: #19bd9a;
+}
+.description__about{
+    display: flex;
+    justify-content:center;
+
+}
+
+.suptitle_about{
+    color: #464646;
+    font-size: 20px;
+    line-height: 80px;
+    letter-spacing: 0.8px;
+    display: flex;
+
+
+}
+
+
+
+
+.description__about p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text2{
+    max-width: 515px;
+    color: #81868e;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: 0.7px;
+    margin-top: 80px;
+    margin-right: 80px;
+
+}
+.text1{
+    margin-right:130px;
+    max-width: 321px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+    color: #81868e;
+    margin-bottom: 100px;
+}
+/*
+.flex {
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img1:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    background-color: rgba(38, 37, 40, 0.3);
+    background-blend-mode: darken;
+    z-index: 2;
+}
+
+.img3:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.img2:hover{
+    transform: scale(1.2);
+    transition: .5s ease;
+}*/
+.green{
+    display: flex;
+    justify-content: start;
+    margin-top: -3px;
+    background-color: #31bda2;
+    background-blend-mode: darken;
+    z-index: 2;
+
+}
+
+
+.menu__icon{
+    display: none;
+}
+@media (max-width: 768px){
+    .menu__icon{
+        display: block;
+    }
+    .menu__list{display: none}
+}
+.dropdown{
+    position: absolute;
+    background-color: red;
+    top: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+.main-li{
+    position: relative;
+}
+.main-li:hover .dropdown{
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
+.flex {
+    margin-top: 65px;
+    display: flex;
+justify-content: center;
+    overflow:hidden; /*скроем тень*/
+}
+.item {
+    height:300px;
+    width: 25%;
+    transition: flex 300ms ease;
+    box-shadow: 0 0 19px 3px #000; margin: 1px; /* красивости тени */
+}
+.item:hover {
+    width: 800px;
+}
