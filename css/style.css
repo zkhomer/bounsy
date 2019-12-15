@@ -176,6 +176,13 @@
     margin-top: 33px;
     cursor: pointer;
 }
+.title__main button a{
+    text-decoration: none;
+    color: black;
+}
+.title__main button:hover{
+    background-color: #07a887;
+}
 
 .about {
     background-color: #f3f3f3;
@@ -225,7 +232,7 @@
     color: black;
     border: 1px solid black;
     border-radius: 50%;
-    padding: 4px 11px 2px;
+    padding: 4px 4px 2px;
     margin: 20px;
     background-color: #81868e;
 }
@@ -338,10 +345,12 @@
     transition: flex 300ms ease;
     box-shadow: 0 0 19px 3px #000;
     margin: 1px;
+
 }
 
 .item:hover {
     width: 800px;
+
 }
 
 
@@ -499,7 +508,7 @@ label {
 }
 
 .block__title {
-    width: 100%;
+    width:calc( 100% - 2px);
     line-height: 90px;
     display: flex;
     flex-direction: column;
@@ -560,7 +569,7 @@ label {
     display: none;
 }
 
-.asd {
+.block__info {
     font-size: 16px;
     font-weight: 400;
     width: 100%;
